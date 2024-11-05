@@ -36,7 +36,7 @@ This project leverages Azure OpenAI and Custom Vision services to:
    
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/yourusername/azure-ai-logo-compliance.git  
+   git clone https://github.com/vhoudebine/azure-ai-logo-compliance.git  
    cd azure-ai-logo-compliance  
    ```  
    
@@ -55,9 +55,11 @@ This project leverages Azure OpenAI and Custom Vision services to:
    ```env  
    AZURE_OPENAI_ENDPOINT=<your_openai_endpoint>  
    AZURE_OPENAI_API_KEY=<your_openai_api_key>  
-   AZURE_OPENAI_MODEL=<your_openai_model>  
+   AZURE_OPENAI_MODEL=<your_openai_model_deployment_name>  
    CUSTOM_VISION_ENDPOINT=<your_custom_vision_endpoint>  
-   CUSTOM_VISION_PREDICTION_KEY=<your_custom_vision_prediction_key>  
+   CUSTOM_VISION_PREDICTION_KEY=<your_custom_vision_prediction_key>
+   CUSTOM_VISION_PROJECT_ID=<your_custom_vision_project_id>
+   CUSTOM_VISION_MODEL_NAME=<your_custom_vision_model_name> 
    ```  
    
 ## Usage  
