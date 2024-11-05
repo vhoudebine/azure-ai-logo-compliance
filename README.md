@@ -27,7 +27,7 @@ This project leverages Azure OpenAI and Custom Vision services to:
    
 ## Prerequisites  
    
-- Python 3.7 or higher  
+- Python 3.8 or higher  
 - Azure account  
 - Azure OpenAI resource with GPT-4o deployment  
 - Azure Custom Vision resource  
